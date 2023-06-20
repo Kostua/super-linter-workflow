@@ -103,6 +103,7 @@ jobs:
             echo "VALIDATE_RUBY=false";
             echo "VALIDATE_PHP=false";
             echo "VALIDATE_CSHARP=false";
+            echo "VALIDATE_TERRAFORM_TERRASCAN"=false;
 
           } >> $GITHUB_ENV
 
